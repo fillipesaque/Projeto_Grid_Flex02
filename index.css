@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.banner-logo{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    width: 100%;
+    height: auto;
+}
+.Btn-Nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.BtnHeader{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: transparent;
+    color: oldlace;
+    border-color: transparent;
+    padding: 20px   
+}
+.BtnHeader:hover{
+    border-bottom: solid 2px black;
+}
+
+.containerSection{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.img01{
+    width: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 2px oldlace;
+}
+.img01:hover{
+    border-color: black;
+}
+
+.containerSection2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 20% auto 20%;
+    grid-template-areas: 
+    "iten1 textoFinal reserva"
+    "iten2 textoFinal reserva"
+    "iten3 textoFinal reserva"
+    ;
+    justify-content: space-around;
+}
+
+.iten1{
+    grid-area: iten1;
+    cursor: pointer;
+}
+.iten2{
+    grid-area: iten2;
+    cursor: pointer;
+}
+.iten3{
+    grid-area: iten3;
+    cursor: pointer;
+}
+.textoFinal{
+    grid-area:textoFinal ;
+    cursor: pointer;
+    height: auto
+}
+.reserva{
+    grid-area:reserva;
+    cursor: pointer;
+}
+.img-basquete{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    border:solid 2px oldlace;
+}
+.img-basquete:hover{
+    border-color: black;
+}
+
+.img-skate{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    border:solid 2px oldlace;
+}
+.img-skate:hover{
+    border-color: black;
+}
+
+.img-futamr{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    border:solid 2px oldlace;
+}
+.img-futamr:hover{
+    border-color: black;
+}
+.textof{
+    width: 250px;
+    height: auto;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: row;
+}
+.img-footer{
+    width: 100%;
+    height: 100px;
+}
+.btn-voltar{
+ cursor: pointer;
+ text-decoration: none;
+ justify-content: center;
+ 
+}
+
